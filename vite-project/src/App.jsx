@@ -5,7 +5,7 @@ import TechStack from './component/TechStack'
 
 export default function App() {
   return (
-    <div class="bg-gradient-to-r from-blue-500 to-white p-6 text-black ">
+    <div class="bg-gradient-to-r from-violet-800 to-cyan-400 p-5 ">
       <Navbar/>
       <About/>
       <TechStack/>
