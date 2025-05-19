@@ -33,10 +33,10 @@ export default function About() {
                     <div className='text-3xl font-semibold text-sky-600'>I am a front-end developer</div>
                     <div className='flex gap-8 items-center'>
                         <button className='border-2 border-sky-600 shadow-sm shadow-white rounded-2xl h-12 p-2 font-semibold hover:scale-105  transition-all duration-300    '>Download now</button>
-                        <div className='p-2 bg-sky-500 justify-center items-center rounded-full'>
+                        <div className='p-2 bg-sky-500 justify-center items-center rounded-full hover:scale-105 transition-all duration-300'>
                             <a href="https://github.com/Bhageshwar111"><FaGithub className='text-3xl' /></a>
                         </div>
-                        <div className='p-2 bg-sky-500 justify-center items-center rounded-full'>
+                        <div className='p-2 bg-sky-500 justify-center items-center rounded-full hover:scale-105 transition-all duration-300'>
                             <a href="https://www.linkedin.com/jobs/"><FaLinkedin className='text-3xl' /></a>
                         </div>
                     </div>

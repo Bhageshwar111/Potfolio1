@@ -38,7 +38,8 @@ export default function Navbar() {
       </div>
       {
         open && (
-          <ul className=' absolute top-14 flex  flex-col items-center bg-amber-600 w-full left-0 gap-4'>
+
+          <ul className=' absolute top-20 left-0 w-full flex flex-col items-center bg-gradient-to-r from-violet-800 to-cyan-400 gap-4 py-4 text-white md:hidden z-10'>
             {
               navmenu.map((item, key) => (
                 <li key={key}><a href={item.href}>{item.name}</a></li>

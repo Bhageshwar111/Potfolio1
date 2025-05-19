@@ -1,13 +1,26 @@
 import React from 'react'
 
-export default function Experience() {
+export default function () {
   return (
-    <div className='text-white flex justify-center flex-col items-center mt-30 gap-3'>
-        <div className='font-bold text-4xl'>Experience</div>
-        <div className='border-1 border-fuchsia-800 h-50 w-140 bg-purple-500 rounded-2xl'>
-            <div></div>
-            
+    <div className='flex justify-center py-10'>
+
+      <div className='flex  flex-col justify-center items-center gap-5'>
+
+        <h1>Experience</h1>
+
+        <div className='h-[100px] w-[400px] bg-red-700'>
+          <h1>Sqilco
+          </h1>
+
+          <h1> 2024 - Present</h1>
+
+          <p>i have completed 6 month internship program in sqilco.</p>
+
         </div>
+
+      </div>
+
+
     </div>
   )
 }

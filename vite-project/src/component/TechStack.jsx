@@ -11,12 +11,14 @@ import { FaCss3Alt } from "react-icons/fa";
 export default function TechStack() {
     return (
         <div className='flex md:flex flex-col'>
-            <div className='flex  justify-center gap-10 px-4'>
+            <div className='flex  justify-center gap-7 px-4'>
                 <div className='text-3xl font-semibold'>My Tech Stack</div>
-                <div><FaHtml5 className='text-5xl text-fuchsia-950' /></div>
-                <div><FaCss3Alt className='text-5xl text-fuchsia-950' /></div>
-                <div><IoLogoJavascript className='text-5xl text-fuchsia-950' /></div>
-                <div><FaReact className='text-5xl text-fuchsia-950' /></div>
+                <div className='flex gap-3'>
+                    <div><FaHtml5 className='text-5xl text-fuchsia-950' /></div>
+                    <div><FaCss3Alt className='text-5xl text-fuchsia-950' /></div>
+                    <div><IoLogoJavascript className='text-5xl text-fuchsia-950' /></div>
+                    <div><FaReact className='text-5xl text-fuchsia-950' /></div>
+                </div>
             </div>
 
 
