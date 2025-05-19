@@ -1,12 +1,12 @@
 import React from 'react'
 import { FaGithub } from "react-icons/fa";
 import photo from "../assets/images/Background.jpg"
- 
+
 
 export default function
     () {
     return (
-        <div className='flex items-baseline gap-4 justify-center text-white mt-40'>
+        <div className=' flex flex-col  items-center md: justify-center text-white mt-40'>
             <div className='justify-items-start w-100 flex flex-col gap-2'>
                 <div className='font-semibold text-3xl'>Potfolio</div>
                 <div>

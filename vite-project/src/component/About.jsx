@@ -28,15 +28,15 @@ export default function About() {
                         style={{ fontSize: '2em', display: 'inline-block' }}
                         repeat={Infinity}
                     />
-                    <div className='text-5xl text-orange-600 font-semibold'>Hey, I am</div>
-                    <div className='text-5xl text-orange-600 font-semibold'>Bhageshwar Turan</div>
-                    <div className='text-3xl font-semibold text-teal-950'>I am a front-end developer</div>
+                    <div className='text-5xl text-sky-600 font-semibold'>Hey, I am</div>
+                    <div className='text-5xl text-white font-semibold'>Bhageshwar Turan</div>
+                    <div className='text-3xl font-semibold text-sky-600'>I am a front-end developer</div>
                     <div className='flex gap-8 items-center'>
-                        <button className='border-2 rounded-2xl h-12 p-2 font-semibold'>Download now</button>
-                        <div className='p-2 bg-purple-500 justify-center items-center rounded-full'>
+                        <button className='border-2 border-sky-600 shadow-sm shadow-white rounded-2xl h-12 p-2 font-semibold hover:scale-105  transition-all duration-300    '>Download now</button>
+                        <div className='p-2 bg-sky-500 justify-center items-center rounded-full'>
                             <a href="https://github.com/Bhageshwar111"><FaGithub className='text-3xl' /></a>
                         </div>
-                        <div className='p-2 bg-purple-500 justify-center items-center rounded-full'>
+                        <div className='p-2 bg-sky-500 justify-center items-center rounded-full'>
                             <a href="https://www.linkedin.com/jobs/"><FaLinkedin className='text-3xl' /></a>
                         </div>
                     </div>
