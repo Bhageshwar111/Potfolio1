@@ -3,6 +3,7 @@ import Navbar from './component/Navbar'
 import About from './component/About'
 import TechStack from './component/TechStack'
 import Potfolio from './component/Potfolio'
+import Experience from './component/Experience'
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <About/>
       <TechStack/>
       <Potfolio/>
+      <Experience/>
       
       
     </div>
